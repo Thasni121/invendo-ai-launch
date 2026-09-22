@@ -398,7 +398,7 @@ export const industryExperience = [
   "Police & Public Safety: Kerala Police Department project experience",
 ] as const;
 
-export const departments = ["HR", "Marketing", "Sales", "Finance", "Operations", "IT", "Management", "Business"] as const;
+export const departments = ["HR", "Marketing", "Sales", "Finance", "Operations", "IT", "Management", "Business", "Corporate Companies"] as const;
 
 export const programs = [
   {

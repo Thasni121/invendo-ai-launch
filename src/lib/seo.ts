@@ -1,5 +1,3 @@
-import type { AnyRouteMatch } from "@tanstack/react-router";
-
 type HeadArgs = {
   title: string;
   description: string;
@@ -32,5 +30,3 @@ export function siteHead({ title, description, path, type = "website", jsonLd }:
       : undefined,
   });
 }
-
-export type RouteHead = ({ matches }: { matches: AnyRouteMatch[] }) => ReturnType<ReturnType<typeof siteHead>>;
